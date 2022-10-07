@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    box-sizing: border-box;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./img/pexels-afta-putta-gunawan-683039.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    font-family: 'DM sans', sans-serif;
+}
+
+header {
+    height: 7vh;
+    margin: 15px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar h1 {
+    margin: 0 40px;
+    padding: 10px 10px;
+    background-color: #000;
+    color: rgb(107, 107, 107);
+    border-bottom: 1px solid rgb(107, 107, 107);
+    border-style:groove ;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    margin: 0 50px;
+}
+
+.navbar ul li {
+    padding: 0 40px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: rgb(209, 205, 205);
+    font-size: 12.5px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+
+}
+
+.lean {
+    border-bottom: 1px solid rgb(107, 107, 107);
+    padding-bottom: 8px;
+}
+
+.hero {
+    height: 74vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-title {
+    width: 30vw;
+    margin: 0 50px;
+}
+
+.hero-title h1 {
+    margin: 10px 0;
+    color: rgb(231, 231, 231);
+}
+
+span {
+    font-family: 'Courgette', sans-serif;
+    color: rgb(151, 118, 105);
+    font-size: 30px
+}
+
+.hero-title p {
+    margin: 10px 0;
+    color: rgb(185, 175, 175);
+}
+
+.hero-title button {
+    margin: 5px 0;
+    padding: 20px 40px;
+    font-family: 'Courgette', sans-serif;
+    font-size: 15px;
+    color: rgb(151, 118, 105);
+    background-color: #000;
+    border: 1px solid rgb(107, 107, 107);
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 15vh;
+    color: #fff;
+    background-color: #000;
+}
+
+footer h1 {
+    margin: 0 60px;
+}
+
+footer p {
+    margin: 0 60px;
+    color: rgb(107, 107, 107);
+    font-size: 12px;
+}
+
+.active {
+    font-family: 'Courgette', sans-serif;
+    color: rgb(151, 118, 105);
+}
+
+.paw2{
+    rotate: 30deg;
+    margin-left: 10px;
+}
+
+.paw3{
+    rotate: 180deg;
+    margin-left: 3px;
+}
